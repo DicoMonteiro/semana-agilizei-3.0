@@ -10,13 +10,15 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  cypress-run:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: Install dependencies
       uses: bahmutov/npm-install@v1
     - name: UI Tests
-    - run: npm run cy:run:dash
+      uses: cypress-io/github-action@v4
+      with:
+        install: false
+        start: npm run cy:run:dash
