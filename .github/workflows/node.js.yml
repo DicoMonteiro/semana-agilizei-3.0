@@ -18,5 +18,4 @@ jobs:
     - name: UI Tests
       uses: cypress-io/github-action@v4
       with:
-          build: npm install
           start: npm run cy:run:dash
