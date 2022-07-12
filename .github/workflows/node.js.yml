@@ -25,6 +25,5 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     - run: npm install
     - run: npm run cy:run:dash
