@@ -9,7 +9,7 @@
     "cy:run": "npx cypress run",
     "cy:open:responsive": "npx cypress open --config viewportWidth=411,viewportHeight=823",
     "cy:run:responsive": "npx cypress run --config viewportWidth=411,viewportHeight=823",
-    "cy:run:dash": "npx cypress run --record --key 0dd6e5ed-3541-424d-a69d-00727262af38"
+    "cy:run:dash": "npx cypress run --record"
   },
   "keywords": [],
   "author": "",
