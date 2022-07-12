@@ -15,6 +15,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      
+    - name: Instalar as deps do projeto
+      uses: bahmutov/npm-install@v1
+       
     - name: UI Tests
       uses: cypress-io/github-action@v4
       with:
