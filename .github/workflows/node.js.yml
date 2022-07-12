@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Instalar as deps do projeto
-      uses: bahmutov/npm-install@v1.6.0
+      uses: bahmutov/npm-install@v1
        
     - name: UI Tests
       uses: cypress-io/github-action@v4
