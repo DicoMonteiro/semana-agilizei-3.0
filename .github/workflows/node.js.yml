@@ -18,8 +18,7 @@ jobs:
        uses: cypress-io/github-action@v4
        with:
          install: false
-         record: true
-         start: npm run cy:run:dash
+         start: npm run cy:run
          
      - name: Upload screenshots
        uses: actions/upload-artifact@v2.2.0
