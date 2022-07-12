@@ -5,5 +5,7 @@
   "experimentalSourceRewriting": true,
   "viewportWidth": 1536,
   "viewportHeight": 960,
+  "videoCompression": false,
+  "videoUploadOnPasses": false,
   "projectId": "91mwpj"
 }
