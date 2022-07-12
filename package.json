@@ -1,0 +1,20 @@
+{
+  "name": "semana-agilizei-3-0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:open:responsive": "npx cypress open --config viewportWidth=411,viewportHeight=823",
+    "cy:run:responsive": "npx cypress run --config viewportWidth=411,viewportHeight=823",
+    "cy:run:dash": "npx cypress run --record --key 0dd6e5ed-3541-424d-a69d-00727262af38"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.7.0"
+  }
+}

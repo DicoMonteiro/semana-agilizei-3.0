@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+  "baseUrl": "https://devfinance-agilizei.netlify.app",
+  "watchForFileChanges": true,
+  "experimentalSourceRewriting": true,
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  "projectId": "91mwpj"
+}
