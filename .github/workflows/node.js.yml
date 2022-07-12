@@ -15,10 +15,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Install dependencies
-      run: npm install
     - name: UI Tests
       uses: cypress-io/github-action@v4
       with:
-        install: false
-        start: npm run cy:run:dash
+          build: npm install
+          start: npm run cy:run:dash
