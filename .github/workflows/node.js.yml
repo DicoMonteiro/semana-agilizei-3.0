@@ -14,10 +14,11 @@ jobs:
      - name: Instalar as deps do projeto
        uses: bahmutov/npm-install@v1
      
-     - name: API Tests
+     - name: UI Tests
        uses: cypress-io/github-action@v4
        with:
          install: false
+         record: true
          start: npm run cy:run:dash
          
      - name: Upload screenshots
