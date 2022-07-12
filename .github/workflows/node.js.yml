@@ -16,7 +16,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Install dependencies
-      uses: bahmutov/npm-install@v1
+      run: npm install
     - name: UI Tests
       uses: cypress-io/github-action@v4
       with:
